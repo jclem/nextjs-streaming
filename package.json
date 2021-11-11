@@ -1,4 +1,9 @@
 {
+  "scripts": {
+    "build": "next build",
+    "dev": "next dev",
+    "start": "next start"
+  },
   "dependencies": {
     "next": "^12.0.4-canary.6",
     "react": "^18.0.0-alpha-e0aa5e205-20211109",

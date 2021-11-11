@@ -3,7 +3,12 @@ import useSWR from 'swr'
 
 const SlowFetch: VFC = () => {
   useSWR('/', waiter(1000), {suspense: true})
-  return <li>Slow fetch complete.</li>
+
+  return (
+    <p>
+      <strong>Slow fetch complete.</strong>
+    </p>
+  )
 }
 
 const waiter = (timeout: number) => () =>
