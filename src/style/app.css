@@ -9,7 +9,7 @@ body {
 }
 
 a {
-  color: #0284c7;
+  color: #0c59857;
 }
 
 main {
@@ -26,5 +26,9 @@ button {
   body {
     background: #222;
     color: #efefef;
+  }
+
+  a {
+    color: #0ea5e9;
   }
 }
