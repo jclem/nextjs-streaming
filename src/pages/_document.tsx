@@ -2,7 +2,9 @@ import {Head, Html, Main, NextScript} from 'next/document'
 
 const Document = () => (
   <Html>
-    <Head />
+    <Head>
+      <title>Next.js Streaming Test</title>
+    </Head>
 
     <body>
       <Main />
