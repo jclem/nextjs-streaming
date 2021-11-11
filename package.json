@@ -1,1 +1,13 @@
-{}
+{
+  "dependencies": {
+    "next": "^12.0.4-canary.6",
+    "react": "^18.0.0-alpha-e0aa5e205-20211109",
+    "react-dom": "^18.0.0-alpha-e0aa5e205-20211109",
+    "swr": "^1.0.1"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.34",
+    "prettier": "^2.4.1",
+    "typescript": "^4.4.4"
+  }
+}

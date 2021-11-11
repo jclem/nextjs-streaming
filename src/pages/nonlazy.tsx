@@ -1,0 +1,21 @@
+import {NextPage} from 'next'
+import {Suspense} from 'react'
+import Counter from '../components/Counter'
+import Info from '../components/Info'
+import SlowFetch from '../components/SlowFetch'
+
+const NonLazyPage: NextPage = () => {
+  return (
+    <main>
+      <Counter />
+
+      <Suspense fallback={<p>Loading...</p>}>
+        <SlowFetch />
+      </Suspense>
+
+      <Info />
+    </main>
+  )
+}
+
+export default NonLazyPage
