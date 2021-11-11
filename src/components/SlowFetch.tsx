@@ -1,5 +1,3 @@
-import {useRouter} from 'next/dist/client/router'
-import {resolveHref} from 'next/dist/shared/lib/router/router'
 import {VFC} from 'react'
 import useSWR from 'swr'
 
