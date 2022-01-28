@@ -5,7 +5,7 @@
     "start": "next start"
   },
   "dependencies": {
-    "next": "^12.0.4-canary.6",
+    "next": "^12.0.9",
     "react": "^18.0.0-alpha-e0aa5e205-20211109",
     "react-dom": "^18.0.0-alpha-e0aa5e205-20211109",
     "swr": "^1.0.1"
